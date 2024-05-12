@@ -18,7 +18,7 @@ namespace project_f
             num2 = double.Parse(Console.ReadLine());
 
             // PUT NUMBER ONLY BASE TO THE SPECIFICATION TO EACH OPERATION //
-            Console.WriteLine("| Addition 0 | \n | Subtraction 1 | \n | Multiplication 2 | \n | Division 3 |");
+            Console.WriteLine("| Addition 0 | \n| Subtraction 1 | \n| Multiplication 2 | \n| Division 3 |");
             Console.WriteLine("Chosse the Operation you want to use:");
             int operation = int.Parse(Console.ReadLine());
 
@@ -35,7 +35,8 @@ namespace project_f
                     }
                     else
                     {
-                        Console.WriteLine("Syntax Error, the first number should be greater than to the second number");
+                        double sub = num2 - num1;
+                        Console.WriteLine("-" + sub);
                     }
                     break;
                     
